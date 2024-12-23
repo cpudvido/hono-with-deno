@@ -1,6 +1,6 @@
 import { assert } from "@std/assert";
-import AnimalSchema from "./animal.schema.ts";
-import { factoryAnimals } from "./factory.ts";
+import AnimalSchema from "../mock/animal.schema_test.ts";
+import { factoryAnimals } from "./deno factory.ts";
 
 // Actually, this is an optional test since Zod follows a functional programming concept "Parse, don't validate."
 // See https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/
